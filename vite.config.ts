@@ -6,7 +6,7 @@ export default defineConfig({
   base: 'https://github.com/VelMakarova/test_pages_deploy.git',
   server: {
     cors: {
-      origin: '*'
+      origin: 'https://velmakarova.github.io/test_pages_deploy/'
     },
   },
   plugins: [react()],
