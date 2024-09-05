@@ -5,7 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: 'https://github.com/VelMakarova/test_pages_deploy.git',
   server: {
-    cors: false
+    cors: {
+      origin: '*'
+    },
   },
   plugins: [react()],
 })
